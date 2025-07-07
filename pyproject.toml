@@ -10,6 +10,10 @@ python = ">=3.11,<3.13"
 numpy = "~1.26.4"
 matplotlib = "^3.8.0"
 seaborn = "^0.13.0"
+flax = "^0.10.7"
+optax = "^0.2.5"
+aim = "^3.29.1"
+# JAXはDockerfile内でpip installする
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
@@ -22,4 +26,5 @@ ipykernel = "^6.29.0"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-# Note: JAX, Flax, Optax, and Aim are installed via pip due to CUDA requirements
+[tool.poetry.extras]
+cuda = ["jax", "jaxlib"]
