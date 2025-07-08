@@ -33,3 +33,25 @@ Thumbs.db
 *.h5
 *.npz
 *.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+*.log
+jupyter.log
+
+# IDE
+.vscode/
+.idea/
+
+# Aim
+.aim/
