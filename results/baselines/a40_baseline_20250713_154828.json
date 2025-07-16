@@ -1,0 +1,20 @@
+{
+  "version": "0-baseline-a40",
+  "timestamp": "2025-07-13T15:48:28.674419",
+  "device": "NVIDIA A40",
+  "tests": {
+    "test1_chi4": {
+      "status": "completed",
+      "chi": 4,
+      "time_seconds": 0.6340668201446533,
+      "iterations": 100,
+      "converged": true,
+      "final_energy": 0.3724336492044162,
+      "final_grad_norm": 0.0006232136021404209,
+      "initial_energy": 0.3743218081459754,
+      "initial_memory_gb": 0.5,
+      "peak_memory_gb": 0.500032768,
+      "memory_increase_gb": 3.2768e-05
+    }
+  }
+}
